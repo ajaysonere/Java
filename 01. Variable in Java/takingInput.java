@@ -8,6 +8,6 @@ public class takingInput{
         System.out.println( "Name is : "+ name);
         // for integer
         System.out.println(age);
-         
+        sc.close();
     }
 }
