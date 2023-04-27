@@ -26,6 +26,6 @@ public class typeConversion{
       int ans = number1+number2+char1;
       System.out.println(ans);
 
-
+     sc.close();
     }
 }
