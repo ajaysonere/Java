@@ -11,7 +11,10 @@ public class basic{
             System.out.println(a/b);
             System.out.println(a%b);
             // uninary operators
-            a++;
-            System.out.println(a);
+            System.out.println("Unary Operator");
+            int c = a++;
+            System.out.println("value of a :"+a);
+            System.out.println( "Value of c :"+c);
+           
     }
 }
