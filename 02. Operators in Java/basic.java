@@ -15,6 +15,17 @@ public class basic{
             int c = a++;
             System.out.println("value of a :"+a);
             System.out.println( "Value of c :"+c);
-           
+        // 2. Relational operator
+           // less than operator
+           if(a <= b){
+              System.out.println("A is Less then B");
+           }else{
+              System.out.println("B is Greater than A");
+           }
+           // equal  operator
+           System.out.println("A is equal to B" + (a==b));
+           // not equal operator
+           System.out.println("A is not equal to B" + (a!=b));
+         
     }
 }
