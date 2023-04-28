@@ -26,6 +26,12 @@ public class basic{
            System.out.println("A is equal to B" + (a==b));
            // not equal operator
            System.out.println("A is not equal to B" + (a!=b));
-         
+         // 3. Logical Operator
+            System.out.println((3>2) && (5<10));
+            System.out.println((3>2) || (5 > 10) );
+            System.out.println(!(5>3));
+         // 4. Assignment Operators
+            a += 10;
+            System.out.println("Value of A"+a);
     }
 }
