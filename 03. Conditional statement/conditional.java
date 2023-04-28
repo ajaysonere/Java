@@ -10,5 +10,6 @@ public class conditional{
            System.out.println("a is Greater than b");
         else
           System.out.println("a is less than b ");
+        sc.close();
     }
 }
