@@ -11,5 +11,6 @@ public class passOrFail {
 
        String isPass = (marks>33)?"Pass":"Fail";
        System.out.println("Greade : "+isPass);
+       in.close();
     }
 }
