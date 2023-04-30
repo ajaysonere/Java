@@ -17,5 +17,6 @@ public class SwitchConditional {
             default:
                 System.out.println("Sorry ! better luck next time :) ");
         }
+        in.close();
     }
 }
