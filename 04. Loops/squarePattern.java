@@ -5,7 +5,6 @@ public class squarePattern{
         // print square pattern
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        int res = n;
 
         System.out.println("Using the for loop");
         for(int i=0; i<n;i++){
@@ -25,5 +24,6 @@ public class squarePattern{
             System.out.print("\n");
             i++;
         }
+        in.close();
     }
 }
