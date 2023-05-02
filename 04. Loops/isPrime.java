@@ -23,6 +23,6 @@ public class isPrime {
                 System.out.println("Number is not prime");
             }
         }
-
+        in.close();
     }
 }
