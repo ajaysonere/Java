@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class basicOfLoops{
     public static void main(String args[]){
        // Basic of while Loops
