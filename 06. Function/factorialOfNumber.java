@@ -15,6 +15,6 @@ public class factorialOfNumber {
         int nubmer = in.nextInt();
         int factorial = findFactorail(nubmer);
         System.out.println("Factorial Of Number is : "+ factorial);
-
+        in.close();
     }
 }
