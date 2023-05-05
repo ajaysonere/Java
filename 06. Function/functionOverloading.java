@@ -10,6 +10,10 @@ public class functionOverloading {
     public static int sum(int a, int b ,int c){
         return a+b+c;
     }
+
+    public static float sum(float a, float b){
+        return a+b;
+    }
     public static void main(String args[]){
         // function overLoading
         Scanner in = new Scanner(System.in);
@@ -18,6 +22,10 @@ public class functionOverloading {
         int c = in.nextInt();
         System.out.println("Sum :) "+ sum(a , b));
         System.out.println("Sum :) "+ sum(a, b, c));
+
+        float fa = in.nextFloat();
+        float fb = in.nextFloat();
+        System.out.println("Sum :) "+ sum(fa, fb));
         in.close();
     }
 }
