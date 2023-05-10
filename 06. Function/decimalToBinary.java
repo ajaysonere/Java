@@ -3,10 +3,13 @@ public class decimalToBinary {
         // decimal to binary
         int d = 5;
         int ans = 0;
+        int pow = 0;
         while(d>0){
-            int temp = d%2;
-            ans = ans*10+temp;
+            int rem = d%2;
+            ans = ans+(rem*(int)Math.pow(10, pow));
+            pow++;
             d = d/2;
         }
+        System.out.println("Binary is : "+ ans);
     }
 }
