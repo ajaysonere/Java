@@ -13,5 +13,6 @@ public class isEven {
         }else{
             System.out.println("Number is Odd ");
         }
+        in.close();
     }
 }
