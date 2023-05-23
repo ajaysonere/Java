@@ -19,5 +19,6 @@ public class basicOfArray {
             arr[i] *= 2;
             System.out.print(arr[i]+" ");
         }
+        in.close();
     }
 }
