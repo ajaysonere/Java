@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class binarySearch {
 
-    public static int binarySearch(int arr[] , int key){
+    public static int binarySearchInArray(int arr[] , int key){
         int start = 0;
         int end = arr.length;
         while(start <= end){
@@ -25,7 +25,7 @@ public class binarySearch {
             arr[i] = in.nextInt();
         }
         int key = in.nextInt();
-        int result = binarySearch(arr,key);
+        int result = binarySearchInArray(arr,key);
         if(result == -1){
             System.out.println("Element is not present ");
         }else{
