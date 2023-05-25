@@ -1,9 +1,8 @@
-import java.io.ObjectInputFilter.Status;
 import java.util.*;
 
 public class reverseArray {
 
-    public static void reverseArray(int arr[]){
+    public static void reverseArrayOp(int arr[]){
         int start = 0;
         int end = arr.length-1;
         while(start < end){
@@ -27,7 +26,7 @@ public class reverseArray {
             System.out.print(arr[i] + " ");
         }
         System.out.println("\nAfter the reversing the array");
-        reverseArray(arr);
+        reverseArrayOp(arr);
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i] + " ");
         }
