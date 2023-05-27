@@ -1,17 +1,25 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class bubblesort {
     public static void bubblesortOnArray(int arr[]){
         int size = arr.length;
+        int count = 0;
+        boolean checkOptimized = false;
         for (int i = 0; i < size - 1; i++) {
             for (int j = 0; j < size - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
+                    checkOptimized = true;
+                    count++;
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
                 }
             }
+            if(checkOptimized == false){
+                break;
+            }
         }
+        System.out.println("Count is "+count);
     }
     public static void main(String args[]){
         // bubble sort
@@ -31,5 +39,7 @@ public class bubblesort {
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+" ");
         }
+
+        in.close();
     }
 }
