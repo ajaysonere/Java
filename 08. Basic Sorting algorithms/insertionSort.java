@@ -1,6 +1,20 @@
 import java.util.*;
 
 public class insertionSort {
+
+    public static void insertionSortOnArray(int arr[]){
+        // insertion sort
+        for(int i=1; i<arr.length; i++){
+            int current = arr[i];
+            int prev = i-1;
+            while(prev >= 0 && arr[prev] > current ){
+                arr[prev+1] = arr[prev];
+                prev--;
+            }
+            arr[prev+1] = current;
+
+        }
+    }
     public static void main(String args[]){
         // insertion sort
         Scanner in = new Scanner(System.in);
