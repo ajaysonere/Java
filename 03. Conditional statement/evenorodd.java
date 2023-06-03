@@ -9,5 +9,11 @@ public class evenorodd{
             System.out.println("Number is odd ");
         }
         in.close();
+
+        if(args.length == 0){
+            System.out.println("No value");
+        }else{
+            System.out.println("Length is :"+ args.length);
+        }
     }
 }

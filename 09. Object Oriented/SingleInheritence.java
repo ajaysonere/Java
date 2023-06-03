@@ -11,6 +11,7 @@ class A{
         y = in.nextInt();
         z = in.nextInt();
         System.out.println("X : " + x + " Y : "+ y + " Z " + z);
+        in.close();
     }
 }
 
