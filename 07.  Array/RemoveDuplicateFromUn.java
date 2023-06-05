@@ -21,5 +21,6 @@ public class RemoveDuplicateFromUn {
                 }
             }
         }
+        in.close();
     } 
 }
