@@ -15,23 +15,37 @@ public class NewVersionOfArray {
             }
         }
 
-        for(int i=0; i<arr.length; i++){
-            System.out.print(arr[i]+ " ");
-        }
-        
-        int ans[] = new int[size];
         int index = 0;
         for(int i=0; i<arr.length; i++){
             if(arr[i] != 0){
-                ans[index++] = arr[i];
+                arr[index++] = arr[i];
             }
         }
-
-        System.out.println();
-
-        for(int i=0; i<ans.length; i++){
-            System.out.print(ans[i] + " ");
+        for(int i=index; i<arr.length; i++){
+            arr[i] = 0;
         }
+
+        for(int i=0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+
+        // for(int i=0; i<arr.length; i++){
+        //     System.out.print(arr[i]+ " ");
+        // }
+        
+        // int ans[] = new int[size];
+        // int index = 0;
+        // for(int i=0; i<arr.length; i++){
+        //     if(arr[i] != 0){
+        //         ans[index++] = arr[i];
+        //     }
+        // }
+
+        // System.out.println();
+
+        // for(int i=0; i<ans.length; i++){
+        //     System.out.print(ans[i] + " ");
+        // }
         in.close();
     }
 }
