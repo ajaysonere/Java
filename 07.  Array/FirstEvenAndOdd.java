@@ -1,5 +1,5 @@
 import java.util.*;
-import java.io.*;
+// import java.io.*;
 
 public class FirstEvenAndOdd {
     public static void main(String args[]){
@@ -19,9 +19,14 @@ public class FirstEvenAndOdd {
         }
 
         for(int i=0; i<arr.length;i++){
-            if(arr[i] != 0){
-                
+            if(arr[i]%2 != 0){
+                updatedArray.add(arr[i]);
             }
+        }
+
+        Iterator it = updatedArray.iterator();
+        while(it.hasNext()){
+            System.out.print(it.next()+ " ");
         }
 
         in.close();
