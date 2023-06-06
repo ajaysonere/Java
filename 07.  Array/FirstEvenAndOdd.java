@@ -1,4 +1,5 @@
-import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 
 public class FirstEvenAndOdd {
     public static void main(String args[]){
@@ -9,7 +10,20 @@ public class FirstEvenAndOdd {
             arr[i] = in.nextInt();
         }
 
-        // int even[] = new int[]
+        ArrayList<Integer> updatedArray = new ArrayList<Integer>();
+
+        for(int i=0; i<arr.length;i++){
+            if(arr[i]%2==0){
+                updatedArray.add(arr[i]);
+            }
+        }
+
+        for(int i=0; i<arr.length;i++){
+            if(arr[i] != 0){
+                
+            }
+        }
+
         in.close();
     }
 }
