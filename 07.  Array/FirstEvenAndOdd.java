@@ -24,7 +24,7 @@ public class FirstEvenAndOdd {
             }
         }
 
-        Iterator it = updatedArray.iterator();
+        Iterator<Integer> it = updatedArray.iterator();
         while(it.hasNext()){
             System.out.print(it.next()+ " ");
         }
