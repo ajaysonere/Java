@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class BasicOperation {
 
     public static boolean isOddNum(int n){
