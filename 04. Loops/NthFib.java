@@ -15,5 +15,6 @@ public class NthFib {
             count++;
         }
         System.out.println("N th Fibonacci Number : " + c);
+        in.close();
     }
 }
