@@ -10,6 +10,8 @@ class Temp{
 }
 
 public class BasicClass {
-    Temp a = new Temp();
-    a.addition(10,20);
+   public static void main(String args[]){
+        Temp a = new Temp();
+        a.addition(10,20);
+   }
 }

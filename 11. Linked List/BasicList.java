@@ -1,6 +1,5 @@
 import java.util.*;
 
-import javax.swing.text.html.parser.Element;
 public class BasicList {
     public static void main(String args[]){
        LinkedList<Integer> list = new LinkedList<Integer>();
@@ -25,5 +24,6 @@ public class BasicList {
         }while(Command == -1);
        
         System.out.print(list + " ");
+        in.close();
     }
 }
