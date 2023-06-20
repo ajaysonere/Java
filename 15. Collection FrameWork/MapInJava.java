@@ -30,6 +30,7 @@ public class MapInJava {
         Iterator it = st.iterator();
         while(it.hasNext()){
            System.out.print(it.next()+ " ");
+
         }
         System.out.println();
         hp.remove("Pakistan");
