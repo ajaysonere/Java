@@ -32,5 +32,7 @@ public class MapInJava {
            System.out.print(it.next()+ " ");
         }
         System.out.println();
+        hp.remove("Pakistan");
+        System.out.println(hp);
     }
 }
