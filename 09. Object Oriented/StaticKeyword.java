@@ -32,6 +32,11 @@ public class StaticKeyword {
         System.out.println();
 
         System.out.println("Population is :" + Human.population);
+        greeting();
 
+    }
+
+    static void greeting(){
+        System.out.println("Welcome");
     }
 }
