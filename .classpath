@@ -6,5 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="16. Exeption in java"/>
+	<classpathentry kind="src" path="17. JDBC"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
