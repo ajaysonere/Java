@@ -8,7 +8,7 @@ public class BasicList {
        System.out.println("Enter -1 For Print the Liked List ");
        Scanner in = new Scanner(System.in); 
        int Command = in.nextInt();
-        do{
+        do{ 
             int operation = in.nextInt();
             switch(operation){
                     case 1 : int insertFirst = in.nextInt();

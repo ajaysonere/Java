@@ -13,7 +13,7 @@ public class JDBCExample {
         // Establishing the connection
         try {
             // Registering the JDBC driver
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Creating the connection
             Connection connection = DriverManager.getConnection(jdbcURL, username, password);
