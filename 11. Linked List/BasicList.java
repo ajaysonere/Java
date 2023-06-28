@@ -6,7 +6,7 @@ public class BasicList {
        System.out.println("1. Enter 1 For Inserting the Element At First");
        System.out.println("2. Enter 2 For Inserting the Element At End");
        System.out.println("Enter -1 For Print the Liked List ");
-       Scanner in = new Scanner(System.in);
+       Scanner in = new Scanner(System.in); 
        int Command = in.nextInt();
         do{
             int operation = in.nextInt();
